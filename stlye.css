@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+     font-family: sans-serif;
+}
+
+body{
+
+    background-color: white;
+    margin: 0px;
+    padding: 0px
+}
+ul{
+    list-style: none
+}
+a{
+    text-decoration: none; 
+
+}
+.top-section{
+    width: 100%; 
+    height: 50vh;
+}
+.bg-image{
+    background-image: url(./Images/keyboard.jpg);filter: blur(8px);
+    background-size: cover;
+    filter: blur(8px);
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.bottom-section{
+    background: rgb(53,125,148);
+    background: linear-gradient(353deg, rgba(53,125,148,1) 2%, rgba(89,0,106,1) 31%, rgba(195,138,36,1) 82%);
+    padding-top: 150px
+    
+}
+nav{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    height:45px;
+    background: rgb(53,125,148);
+    background: linear-gradient(353deg, rgba(53,125,148,1) 2%, rgba(89,0,106,1) 31%, rgba(195,138,36,1) 82%);
+    box-shadow:1.5px 1.5px 10px rgba(0,0,0,0,2);
+    padding: 0px 5%
+}
+nav ul{
+    display: flex; 
+    
+}
+nav ul li a {
+    margin: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.picture{
+
+    max-height: 300px;
+    max-width:  300px;
+
+}
+
+.avatar{
+    border-radius: 150px;
+    position: absolute;
+    bottom: 70%;
+    left: 40%;
+   
+   
+}
+.name{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 48%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center
+}
+h1{
+    margin-left: 10px;
+    font-family: sans-serif ;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.container{
+    margin: 10px 0px 20px;
+    display: flex;
+    font-weight: bold;
+    font-family: sans-serif; 
+    color: black; 
+    font-size:21px; 
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
+}
+.memo{
+    max-width: 50%;
+    position: absolute;
+    bottom: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    color:white
+}
+.transform:hover{
+    transform:scale(1.1)
+}
+
+.bottom-background{
+    background-image: url(./Images/background3.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.about-box{
+    height: 300px;
+    width: 75%;
+    background-image: url(./Images/northern-lights.jpg);
+    background-size: cover;
+    background-repeat:repeat-x;
+    border-radius: 18px;
+    box-shadow: 10px 10px 12px rgb(255, 0, 0);
+    margin: 20px auto 20px auto;
+    position:relative;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.about-box:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 6px rgb(53,125,148);
+}
+
+.text{
+    margin-left: 25px;
+    justify-self: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 0;
+    color: white;
+    
+}
+.title-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 35px;
+    color: white;
+    align-self: center;
+}
+
+.title .title-header{
+    align-self: center;
+    margin: -1.50rem 0 1.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    text-align:center;
+    box-shadow: 2px 2px 2px rgb(250, 254, 255)
+}
+.title-about .title-header{
+    align-self: center;
+    margin: -1.50rem 0 1.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    text-align:center;
+    box-shadow: 2px 2px 2px rgb(250, 254, 255)
+}
+.work-section{
+    padding: 0% 0% 0px 0%;
+    height: 900px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.work-box{
+    height: 300px;
+    width: 25%;
+    border-radius: 18px;
+    box-shadow: 10px 10px 12px black;
+    margin: 10px auto 20px auto;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 20%;
+    margin: 5%;
+    flex-wrap:wrap
+    
+}
+.html{
+    max-width: 75%;
+    max-height: 65%;
+}
+.html-1:hover{
+    transform: scale(1.2);
+    box-shadow: -5px 6px rgb(236, 11, 11);
+}
+.css:hover{
+    transform: scale(1.2);
+    box-shadow: -5px 6px blue
+}
+.java:hover{
+    transform: scale(1.2);
+    box-shadow: -5px 6px yellow
+}
+
+
+.work-title{
+    margin-top: 120px;
+    position:relative;
+    font-size: 48px;
+    height: 100%;
+    width: 100%px;
+    box-shadow: 15px  white;
+    font-style:italic;
+    color: black;
+    background-color: white;
+    text-align: center;
+
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+h2:hover{
+    transform: skewX(15deg);
+}
+h3:hover{
+    transform: skewX(15deg);
+}
+.contact-me:focus{
+
+content: "(555-555-5555)"
+}
+
+@media screen and (max-width: 768px) {
+    .top-section {
+      flex-direction: column-reverse;
+    }
+  }
